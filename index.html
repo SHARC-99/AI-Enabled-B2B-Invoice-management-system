@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stlyleLP.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+    <title>Invoice Management System</title>
+</head>
+<body>
+
+    <div class="row">
+        <div class="column">
+          <img src="abcLOGO.png">
+        </div>
+        <div class="column">   
+          <img src="highadiusLOGO.png" class="center">  
+        </div>
+      </div>
+      <h1>Invoice List</h1>
+
+    <div class="container">
+        <input type="checkbox" id="show">
+        <label class="btn1" for="show" style="font-size:large;"><i class="fas fa-plus"> Add</i></label>
+        <button class="btn2" style="font-size: large;"><i class="fas fa-pen"> Edit</i></button>
+        <button class="btn3" style="font-size: large;"><i class="fas fa-minus"> Delete</i></button>
+        <input class="search" type="text" style="font-size: large;" placeholder="🔍 Search by Invoice Number"> 
+
+        <div class="addForm">
+          <label for="show" class="close-btn fas fa-times" title="close"></label>
+          <div class="text">
+             Add Invoice
+          </div>
+          <form action="#">
+             <div class="data">
+                <label>Email or Phone</label>
+                <input type="text" required>
+             </div>
+             <div class="data">
+                <label>Password</label>
+                <input type="password" required>
+             </div>
+             <div class="forgot-pass">
+                <a href="#">Forgot Password?</a>
+             </div>
+             <div class="btn">
+                <div class="inner"></div>
+                <button type="submit">login</button>
+             </div>
+             <div class="signup-link">
+                Not a member? <a href="#">Signup now</a>
+             </div>
+          </form>
+       </div>
+
+        <table id="t01">
+          <tr >
+            <th style="padding-top: 105px;padding-left:40px;"><input type="checkbox"/>&nbsp;</td>
+            <th style="padding-top: 105px;padding-left:25px ;">Customer Name </th>
+            <th style="padding-top: 105px;padding-left:80px ;">Customer # </th>
+            <th style="padding-top: 105px;padding-left: 80px;">Invoice # </th>
+            <th style="padding-top: 105px;padding-left:80px ;">Invoice Amount </th>
+            <th style="padding-top: 105px;padding-left:80px ;">Due Date </th>
+            <th style="padding-top: 105px;padding-left:80px ;">Predicted Payment Date </th>
+            <th style="padding-top: 105px;padding-left:80px ;">Note </th>
+          </tr>
+          <tr >
+            <th style="padding-top: 50px;padding-left:40px;"><input type="checkbox"/>&nbsp;</th>
+            <th style="padding-top: 50px;padding-left:25px ;">Customer Name </th>
+            <th style="padding-top: 50px;padding-left:80px ;">Customer # </th>
+            <th style="padding-top: 50px;padding-left: 80px;">Invoice # </th>
+            <th style="padding-top: 50px;padding-left:80px ;">Invoice Amount </th>
+            <th style="padding-top: 50px;padding-left:80px ;">Due Date </th>
+            <th style="padding-top: 50px;padding-left:80px ;">Predicted Payment Date </th>
+            <th style="padding-top: 50px;padding-left:80px ;">Note </th>
+          </tr>
+          <tr >
+            <th style="padding-top: 50px;padding-left:40px;"><input type="checkbox"/>&nbsp;</th>
+            <th style="padding-top: 50px;padding-left:25px ;">Customer Name </th>
+            <th style="padding-top: 50px;padding-left:80px ;">Customer # </th>
+            <th style="padding-top: 50px;padding-left: 80px;">Invoice # </th>
+            <th style="padding-top: 50px;padding-left:80px ;">Invoice Amount </th>
+            <th style="padding-top: 50px;padding-left:80px ;">Due Date </th>
+            <th style="padding-top: 50px;padding-left:80px ;">Predicted Payment Date </th>
+            <th style="padding-top: 50px;padding-left:80px ;">Note </th>
+          </tr>
+          <tr >
+            <th style="padding-top: 50px;padding-left:40px;"><input type="checkbox"/>&nbsp;</th>
+            <th style="padding-top: 50px;padding-left:25px ;">Customer Name </th>
+            <th style="padding-top: 50px;padding-left:80px ;">Customer # </th>
+            <th style="padding-top: 50px;padding-left: 80px;">Invoice # </th>
+            <th style="padding-top: 50px;padding-left:80px ;">Invoice Amount </th>
+            <th style="padding-top: 50px;padding-left:80px ;">Due Date </th>
+            <th style="padding-top: 50px;padding-left:80px ;">Predicted Payment Date </th>
+            <th style="padding-top: 50px;padding-left:80px ;">Note </th>
+          </tr>
+          <tr >
+            <th style="padding-top: 50px;padding-left:40px;"><input type="checkbox"/>&nbsp;</th>
+            <th style="padding-top: 50px;padding-left:25px ;">Customer Name </th>
+            <th style="padding-top: 50px;padding-left:80px ;">Customer # </th>
+            <th style="padding-top: 50px;padding-left: 80px;">Invoice # </th>
+            <th style="padding-top: 50px;padding-left:80px ;">Invoice Amount </th>
+            <th style="padding-top: 50px;padding-left:80px ;">Due Date </th>
+            <th style="padding-top: 50px;padding-left:80px ;">Predicted Payment Date </th>
+            <th style="padding-top: 50px;padding-left:80px ;">Note </th>
+          </tr>
+          <tr >
+            <th style="padding-top: 50px;padding-left:40px;"><input type="checkbox"/>&nbsp;</th>
+            <th style="padding-top: 50px;padding-left:25px ;">Customer Name </th>
+            <th style="padding-top: 50px;padding-left:80px ;">Customer # </th>
+            <th style="padding-top: 50px;padding-left: 80px;">Invoice # </th>
+            <th style="padding-top: 50px;padding-left:80px ;">Invoice Amount </th>
+            <th style="padding-top: 50px;padding-left:80px ;">Due Date </th>
+            <th style="padding-top: 50px;padding-left:80px ;">Predicted Payment Date </th>
+            <th style="padding-top: 50px;padding-left:80px ;">Note </th>
+          </tr>
+        </table>
+    </div>
+</body>
+</html>
